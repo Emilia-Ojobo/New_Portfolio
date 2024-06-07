@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400vh;
+
+}
+.first-con{
+    background-color: rgb(165, 209, 226);
+    
+}
+.first-con h1{
+    font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 80px;
+    padding-top: 40px;
+    color:rgba(30, 149, 153, 0.76); 
+}
+.first-con p{
+    color:rgba(30, 149, 153, 0.76) ;
+}
+h3, h1, h5, h2{
+    color:rgba(30, 149, 153, 0.76);  
+}
+hr{
+    border: 3px solid black;
+    size: 2px;
+    width: 70%;
+}
+
+.first-con .cloud1 img{
+    padding-left: 900px;
+    padding-right:10px;
+    padding-top: 30px;
+}
+
+.first-con .cloud2 img{
+    padding-left:10px ;
+    padding-right:900px;
+    padding-top: 150px;
+}
+
+.first-con .mountain{
+    padding: 0;
+    margin: 0;
+}
+
+
+.second-con img{
+    background-size: contain;
+    width: 220px;
+    height: 220px;
+}
+.second-con .sub-con1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: initial; 
+    padding-left: 15%;
+    padding-right: 15%; 
+
+}
+.second-con .sub-con1 h3, p{
+    flex: 1;
+    margin-right: 70px;
+    margin-left: 20px;
+    
+} 
+
+.second-con .sub-con1 img{
+    height: auto;
+}
+
+.second-con .sub-con2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+text-align:end;  
+padding-left: 15%;
+padding-right: 15%;
+}
+.second-con .sub-con2 h3, p{
+    flex: 1;
+    margin-right: 80px;
+    margin-left: 15px;
+}
+section{
+    text-align: left;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 229, 231);
+    padding-top: 70px;
+  }
+  
+ .third-con {
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+  }
+
+button{
+    background-color: rgba(30, 149, 153, 0.76); 
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+    margin-right: 30px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+button a{
+  text-decoration: none; 
+  color:white; 
+}
+footer{
+    background-color:rgba(30, 149, 153, 0.76) ;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.social a{
+    color:rgba(17, 97, 100, 0.76) ;
+    text-decoration: none;
+    
+}
+.social{
+    padding-top: -10px;
+}
+.social .social1{
+    padding: 10px;
+    padding-top: -10px;
+}
+.social .social2{
+    padding:40px;
+    padding-top: -10px;
+}
+.social .social3{
+    padding: 10px;
+    padding-top: -10px;
+}
+.copywrite{
+    color: white; 
+    padding-top: 40px;
+}
+
+
